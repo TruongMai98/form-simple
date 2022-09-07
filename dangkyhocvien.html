@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        form{
+            background-color: #FFFDA8;
+            text-align: left;
+            width: 58%;
+            margin: auto;
+        }
+        h1{
+            background-color: #D5FEFF;
+            color: blue;
+            margin: 0 auto 10px auto;
+        }
+        .lobby{
+            color: blue;
+        }
+        .lobby1{
+            margin-left: 20px;
+        }
+        #sumbmit{
+            margin-left: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Dang ky hoc vien</h1>
+        <label class="lobby">Ho va Ten</label>
+            <input class="lobby1" type="text" id="fullname" name="fullname" size="25px" placeholder="fullname"><br>
+        <label class="lobby">Ngay sinh</label>
+            <input class="lobby1" type="date" id="birthday"><br>
+        <label class="lobby">Gioi tinh</label>
+            <input class="lobby1" type="radio" name="gender" value="male">
+            <label>Nam</label>
+            <input class="lobby1" type="radio" name="gender" value="female">
+            <label>Nu</label><br>
+        <label class="lobby">Dia chi</label>
+            <input class="lobby1" type="text" name="address" size="30"><br>
+        <label class="lobby">Lop</label>
+            <select class="lobby1">
+                <option value="">-Chon lop-</option>
+                <option value="lop1">Lop 1</option>
+                <option value="lop2">Lop 3</option>
+                <option value="lop3">Lop 3</option>
+            </select><br>
+        <label class="lobby">Email</label>
+            <input class="lobby1" type="text" id="email" name="email" size="30px"><br>
+        <label class="lobby">Dien thoai</label>
+            <input class="lobby1" type="tel" id="tele" name="tele" size="30px" ><br>
+        <input type="submit" id="sumbmit" value="Dang ky">
+        <input type="reset" id="reset" value="Nhap lai">
+    </form>
+</body>
+</html>

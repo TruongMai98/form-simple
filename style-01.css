@@ -1,0 +1,27 @@
+#form1{
+    border-top: 15px solid #D5FEFF;
+    border-bottom: 15px solid #D5FEFF;
+    border-left: 30px solid #D5FEFF;
+    border-right: 30px solid #D5FEFF;
+}
+h1{
+    text-align: center;
+    background-color: #FF4B00;
+    color: white;
+    font-weight: 400;
+    width: 98%;
+    margin: 0 auto 10px auto;
+}
+.full{
+    margin-left: 60px;
+    color: blue;
+}
+.favorite{
+    color:tomato;
+}
+.favorite1{
+    margin-left: 100px;
+}
+#submit{
+    margin-left: 100px;
+}
