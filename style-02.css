@@ -1,0 +1,20 @@
+
+form {
+    background-color: #FFFDA8;
+    text-align: left;
+    width: 58%;
+    margin: auto;
+    border-top: 5px solid #FFFDA8
+}
+h1{
+    background-color: #D5FEFF;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-top: 10px;
+}
+.lobby{
+    color: #0c27aa;
+}

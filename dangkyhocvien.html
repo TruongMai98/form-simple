@@ -3,57 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        form{
-            background-color: #FFFDA8;
-            text-align: left;
-            width: 58%;
-            margin: auto;
-        }
-        h1{
-            background-color: #D5FEFF;
-            color: blue;
-            margin: 0 auto 10px auto;
-        }
-        .lobby{
-            color: blue;
-        }
-        .lobby1{
-            margin-left: 20px;
-        }
-        #sumbmit{
-            margin-left: 80px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style-02.css">
 </head>
 <body>
     <form>
         <h1>Dang ky hoc vien</h1>
-        <label class="lobby">Ho va Ten</label>
-            <input class="lobby1" type="text" id="fullname" name="fullname" size="25px" placeholder="fullname"><br>
-        <label class="lobby">Ngay sinh</label>
-            <input class="lobby1" type="date" id="birthday"><br>
-        <label class="lobby">Gioi tinh</label>
-            <input class="lobby1" type="radio" name="gender" value="male">
-            <label>Nam</label>
-            <input class="lobby1" type="radio" name="gender" value="female">
-            <label>Nu</label><br>
-        <label class="lobby">Dia chi</label>
-            <input class="lobby1" type="text" name="address" size="30"><br>
-        <label class="lobby">Lop</label>
-            <select class="lobby1">
-                <option value="">-Chon lop-</option>
-                <option value="lop1">Lop 1</option>
-                <option value="lop2">Lop 3</option>
-                <option value="lop3">Lop 3</option>
-            </select><br>
-        <label class="lobby">Email</label>
-            <input class="lobby1" type="text" id="email" name="email" size="30px"><br>
-        <label class="lobby">Dien thoai</label>
-            <input class="lobby1" type="tel" id="tele" name="tele" size="30px" ><br>
-        <input type="submit" id="sumbmit" value="Dang ky">
-        <input type="reset" id="reset" value="Nhap lai">
+        <table>
+        <tr>
+            <td>
+                <label class="lobby">Ho va Ten</label>
+            </td>
+            <td>
+                <input type="text" size="25px" placeholder="full name"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Ngay sinh</label>
+            </td>
+            <td>
+                <input  type="date" id="birthday"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Gioi tinh</label>
+            </td>
+            <td>
+                <input type="radio" name="gender" value="male">
+                <label>Nam</label>
+                <input type="radio" name="gender" value="female">
+                <label>Nu</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Dia chi</label>
+            </td>
+            <td>
+                <textarea rows="4" cols="50"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Lop</label>
+            </td>
+            <td>
+                <select>
+                    <option value="">-Chon lop-</option>
+                    <option value="lop1">Lop 1</option>
+                    <option value="lop2">Lop 3</option>
+                    <option value="lop3">Lop 3</option>
+                </select><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Email</label>
+            </td>
+            <td>
+                <input type="email" size="30px"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="lobby">Dien thoai</label>
+            </td>
+            <td>
+                <input type="tel" size="30px" ><br>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Dang ky">
+                <input type="reset" value="Nhap lai">
+            </td>
+        </tr>
+        </table>
     </form>
 </body>
 </html>
