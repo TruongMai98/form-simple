@@ -3,32 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-update.css">
 </head>
 <body>
     <form id="form1" method="get" action="">
         <h1>So thich cua ban</h1>
-        <label class="full" for="fullname">Ho va Ten</label>
+        <table id="table2">
+            <tr>
+                <td>
+        <label class="full1" for="fullname">Ho va Ten</label>
             <input type="text" id="fullname" name="fullname" size="30px" placeholder="fullname"><br><br>
-        <label class="full" for="email">Email</label>
+        <label class="full2" for="email">Email</label>
             <input type="text" id="email" name="email" size="30px" placeholder="Email"><br><br>
-        <label class="full">So thich</label><br>
+        <label class="full3">So thich</label><br>
+        <table id="table1">
+            <tr>
+                <td>
             <input class="favorite1" type="checkbox" name="favorite" value="sport">
-            <label class="favorite">The thao</label>
-            <input class="favorite1" type="checkbox" name="favorite" value="music">
-            <label class="favorite">Am nhac</label>
-            <input class="favorite1" type="checkbox" name="favorite" value="reading">
-            <label class="favorite">Doc sach</label><br>
+            <label class="favorite1-1">The thao</label><br>
+
             <input class="favorite1" type="checkbox" name="favorite" value="browsing">
-            <label class="favorite">Luot web</label>
-            <input class="favorite1" type="checkbox" name="favorite" value="game">
-            <label class="favorite">Choi game</label>
-            <input class="favorite1" type="checkbox" name="favorite" value="moive">
-            <label class="favorite">Dien anh</label><br>
+            <label class="favorite1-1">Luot web</label><br>
+
             <input class="favorite1" type="checkbox" name="favorite" value="travel">
-            <label class="favorite">Du lich</label><br>
+            <label class="favorite1-1">Du lich</label><br>
+                </td>
+
+
+                <td class="col2">
+            <input class="favorite2" type="checkbox" name="favorite" value="music">
+            <label class="favorite2-1">Am nhac</label><br>
+
+            <input class="favorite2" type="checkbox" name="favorite" value="game">
+            <label class="favorite2-1">Choi game</label><br>
+                </td>
+
+
+                <td class="col2">
+            <input class="favorite3" type="checkbox" name="favorite" value="reading">
+            <label class="favorite3-1">Doc sach</label><br>
+
+            <input class="favorite3" type="checkbox" name="favorite" value="moive">
+            <label class="favorite3-1">Dien anh</label><br>
+                </td>
+            </tr>
+        </table>
+
+
         <input id="submit" type="submit" value="Gui thong tin">
         <input id="rest" type="reset" value="Dat lai">
+                </td>
+            </tr>
+        </table>
+
     </form>
 </body>
 </html>
